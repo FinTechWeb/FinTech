@@ -17,15 +17,15 @@ import card2 from "../../photos/Card2.png";
 import card3 from "../../photos/Card3.png";
 import worldImg from "../../photos/world.png";
 import card4 from "../../photos/Card4.png";
-import card5 from "../../photos/Card5.png";
-import card6 from "../../photos/Card6.png";
-import card7 from "../../photos/Card7.png";
-import card8 from "../../photos/Card8.png";
+import card5 from "../../photos/card5.png";
+import card6 from "../../photos/card6.png";
+import card7 from "../../photos/card7.png";
+import card8 from "../../photos/card8.png";
 import country from "../../photos/Country.png";
 import vector from "../../photos/Vector.jpg";
-import card9 from "../../photos/Card9.png";
-import card10 from "../../photos/Card10.png";
-import card11 from "../../photos/Card11.png";
+import card9 from "../../photos/card9.png";
+import card10 from "../../photos/card10.png";
+import card11 from "../../photos/card11.png";
 
 
 
