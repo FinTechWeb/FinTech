@@ -1,0 +1,150 @@
+/* ===== APP SHELL ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #111111;
+}
+
+.app-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* ===== HEADER ===== */
+.app-header {
+  height: 62px;
+  background: #ffffff;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 32px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fde8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #E8001D;
+  flex-shrink: 0;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.header-divider {
+  width: 1px;
+  height: 20px;
+  background: #e8e8e8;
+  margin: 0 4px;
+}
+
+.bell-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.bell-btn:hover {
+  background: #f5f5f5;
+}
+
+/* ===== CONTENT AREA ===== */
+.app-content {
+  flex: 1;
+  padding: 20px 16px;
+  overflow-y: auto;
+}
+
+/* ===== MOBILE: bottom nav ===== */
+@media (max-width: 768px) {
+  .app-content {
+    padding-bottom: 80px; /* space so content isn't hidden behind bottom nav */
+  }
+}
+
+.bottom-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+  }
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #888888;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: color 0.15s;
+}
+
+.bottom-nav-item.active {
+  color: #E8001D;
+}
+
+.bottom-nav-item.active svg {
+  stroke: #E8001D;
+  fill: #E8001D;
+}
+
+.bottom-nav-item svg {
+  stroke: #888888;
+}

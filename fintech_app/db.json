@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "firstName": "victory",
+      "lastName": "Prince",
+      "country": "Nigeria",
+      "email": "john@example.com",
+      "phone": "08044556676",
+      "password": "1234",
+      "id": "68Mkz8-VlMU"
+    },
+    {
+      "firstName": "Nonso",
+      "lastName": "Anukam",
+      "country": "Nigeria",
+      "email": "nonsonukam@gmail.com",
+      "phone": "08148173445",
+      "password": "Password",
+      "id": "amn2PQoYxkM"
+    },
+    {
+      "firstName": "victory",
+      "lastName": "Prince",
+      "country": "Nigeria",
+      "email": "park@example.com",
+      "phone": "08044556676",
+      "password": "2222",
+      "id": "Z8gyq9D6TuY"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "country": "Ghana",
+      "email": "JohnDoe@gmail.com",
+      "phone": "08056578465",
+      "password": "JohnDoe123",
+      "id": "hlSMkaVA0dU"
+    },
+    {
+      "firstName": "Gozie ",
+      "lastName": "Vardy",
+      "country": "Spain",
+      "email": "GozieVardy@gmail.com",
+      "phone": "09087654321",
+      "password": "Vardy001",
+      "id": "p_R43HroCes"
+    }
+    
+    
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
