@@ -59,7 +59,7 @@ export default function SignIn() {
   }
 
   try {
-    const res = await fetch(`http://localhost:3002/users`);
+    const res = await fetch(`https://fintech-api-m2gh.onrender.com/users`);
     const users = await res.json();
 
     // Find user manually after fetching by email

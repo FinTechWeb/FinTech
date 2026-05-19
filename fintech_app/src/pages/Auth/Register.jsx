@@ -59,7 +59,7 @@ export default function Register() {
     try {
       // Check if email already exists
       const checkRes = await fetch(
-        `http://localhost:3002/users?email=${form.email}`
+        `https://fintech-api-m2gh.onrender.com/users?email=${form.email}`
       );
       const existing = await checkRes.json();
       if (existing.length > 0) {
@@ -68,7 +68,7 @@ export default function Register() {
 
 
        // Save user to json-server
-      const res = await fetch("http://localhost:3002/users", {
+      const res = await fetch("https://fintech-api-m2gh.onrender.com/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
