@@ -8,7 +8,7 @@
 import { useNavigate } from "react-router-dom";
 import "./dashboard.css";
 import beth from "../../assets/beth.png"
-import isha from "../../assets/isha.png"
+import isha from "../../assets/Isha.png"
 import Mur from "../../assets/Mur.png"
 import flg from "../../assets/nflg.png"
 import icon from "../../assets/cons.png"
